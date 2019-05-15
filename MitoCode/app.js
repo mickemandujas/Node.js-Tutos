@@ -20,3 +20,4 @@ fs.appendFile('mickemandujas.txt', `Información del cpu: ${cpu_string} `, funct
 console.log(mi.subscriptors);
 mi.saludar();
 
+console.log('probando ssh para github');
