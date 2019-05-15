@@ -1,5 +1,8 @@
 const os = require('os');
 const fs = require('fs');
+const mi = require('./micke');
+
+
 let cpu = os.cpus();
 let sistema = os.platform();
 let usuario = os.hostname();
@@ -13,3 +16,7 @@ fs.appendFile('mickemandujas.txt', `Información del cpu: ${cpu_string} `, funct
         console.log('Error al crear el archivo');
     }
 });
+
+console.log(mi.subscriptors);
+mi.saludar();
+
