@@ -1,4 +1,4 @@
-console.log('Solo es una prueba de import');
+//console.log('Solo es una prueba de import');
 
 let subscriptors = 22000;
 
@@ -13,8 +13,12 @@ module.exports.subscriptors = subscriptors;*/
 
 module.exports = {
     subscriptors: subscriptors,
-    saludar: function saludar() {
+    saludar: () => {
         console.log('Hola que hace');
-        
-    }
+    },
+    /*sumar: (a, b) =>{
+        return a + b;
+    }*/
+    sumar: (a,b) => a+b,
+    mostrar: a => a+10
 }

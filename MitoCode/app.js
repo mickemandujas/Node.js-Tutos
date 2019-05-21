@@ -17,7 +17,14 @@ fs.appendFile('mickemandujas.txt', `Información del cpu: ${cpu_string} `, funct
     }
 });
 
-console.log(mi.subscriptors);
-mi.saludar();
+//console.log(mi.subscriptors);
+//mi.saludar();
 
-console.log('probando ssh para github');
+//console.log('probando ssh para github');
+//let res = mi.sumar(10,5);
+setTimeout(() => {
+    console.log("termine");
+}, 2000);
+
+//let res = mi.mostrar(10);
+//console.log(res);
